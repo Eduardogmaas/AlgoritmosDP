@@ -19,7 +19,7 @@ public class AreaCirculo{
         double areaCirculo;
         final double PI = 3.1415;
 
-        areaCirculo = PI * (raio * raio);
+        areaCirculo = PI * (raio * raio); //pode ser usado também a biblioteca Math.pow onde você utiliza o método e passa (raio, e a quantidade de vezes a se multiplicar)
 
         return areaCirculo;
     }
