@@ -1,7 +1,8 @@
+package ListaAreas;
 import java.util.Scanner; 
 
 
-public class AreaLosango {
+public class AreaParalelogramo {
 
     public static final Scanner TECLADO = new Scanner(System.in);
 
@@ -16,30 +17,30 @@ public class AreaLosango {
         System.out.println(texto);
     }
 
-    public static double calcularLosango(double diagonalMaior, double diagonalMenor){ 
+    public static double calcularParalelogramo(double base, double altura){ 
         double area;
     
-        area = (diagonalMaior * diagonalMenor)/2;
+        area = base * altura;
 
         return area;
     }
 
     public static void main(String[] args){     // Método Main
-        double diagonalMaior;
-        double diagonalMenor; 
+        double base;
+        double altura; 
         double area;
 
         // Entrada
-        imprimir("Informe o valor da diagonal maior");
-        diagonalMaior = lerValorReal();
-        imprimir("Informe o valor da diagonal menor");
-        diagonalMenor = lerValorReal();
+        imprimir("Informe o valor da base");
+        base = lerValorReal();
+        imprimir("Informe o valor da altura");
+        altura = lerValorReal();
         
         // Processamento
-        area = calcularLosango(diagonalMaior, diagonalMenor);
+        area = calcularParalelogramo(base, altura);
         
         // Saída
-        imprimir("A area do Losango é: " + area);
+        imprimir("A area do Paralelogramo é: " + area);
     }
 
 
