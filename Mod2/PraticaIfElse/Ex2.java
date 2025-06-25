@@ -18,11 +18,11 @@ public class Ex2{
         mediaAritmetica = (primeiraNota + segundaNota) /2;
 
         if (mediaAritmetica >= 7.0){
-            System.out.println("Aprovado");   //Saída
+            System.out.println("Aprovado com média de: " + mediaAritmetica );   //Saída
         }   if ((mediaAritmetica < 7.0) && (mediaAritmetica >= 4.0)){
-                System.out.println("Exame"); //Saída
+                System.out.println("Exame com média de: " + mediaAritmetica); //Saída
             }   if (mediaAritmetica < 4.0){
-                    System.out.println("Reprovado");
+                    System.out.println("Reprovado com média de: " + mediaAritmetica);
                 }
     }
 }
