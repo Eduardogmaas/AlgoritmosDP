@@ -24,5 +24,16 @@ public class Ex2{
             }   if (mediaAritmetica < 4.0){
                     System.out.println("Reprovado com média de: " + mediaAritmetica);
                 }
+
+
+                // if (mediaAritmetica >= 7.0){
+                //     System.out.println("Aprovado com média de: " + mediaAritmetica );   //Saída
+                // } else if (mediaAritmetica > 4.0){
+                //            System.out.println("Reprovado com média de: " + mediaAritmetica);
+                //        } else {
+                //             System.out.println("Exame com média de: " + mediaAritmetica);
+                //          } 
+        
+
     }
 }
