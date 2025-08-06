@@ -25,6 +25,6 @@ public class exemploFatorialProf {
         } while (cont > 1);
 
         //saida
-        System.out.println("O exponencial do número é "+somatorio);
+        System.out.println("O exponencial do número "+numero+" é "+somatorio);
     }
 }
