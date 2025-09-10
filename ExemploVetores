@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class ExemploVetor {
+    public static void main(String[] args){
+        System.out.println("Exemplo Vetores");
+        int[] num = new int[10];
+        int i = 0;
+        Scanner sc = new Scanner(System.in);
+
+        // Como fazer utilizando DO e WHILE
+        do { 
+            System.out.print("Informe um número: ");
+            num[i] = sc.nextInt();
+            i++;
+        } while (i<10);
+
+        // Como fazer utilizando FOR
+        
+        //Apresentando o conteúdo de um vetor
+        // for (i=0;i<5;i++){
+        //     System.out.println("num["+i+"]="+num[i]);
+        // }
+        
+        
+    }
+}
