@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ExemploVetor {
+public class ExemploVetores {
     public static void main(String[] args){
         System.out.println("Exemplo Vetores");
         int[] num = new int[10];

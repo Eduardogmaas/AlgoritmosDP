@@ -20,8 +20,8 @@ class Funcionario {
 }
 
 public class ExercicioCrudFuncionarios {
-    static Funcionario[] funcionarios = new Funcionario[100]; // vetor para armazenar até 100 funcionários
-    static int count = 0; // quantidade atual de funcionários
+    static Funcionario[] funcionarios = new Funcionario[10]; 
+    static int count = 0; 
 
     // Método de adicionar 
     public static void adicionarFuncionario(Scanner sc) {
@@ -133,13 +133,26 @@ public class ExercicioCrudFuncionarios {
             
 
             switch (opcao) {
-                case 1 -> adicionarFuncionario(sc);
-                case 2 -> listarFuncionarios();
-                case 3 -> buscarPorNome(sc);
-                case 4 -> alterarFuncionario(sc);
-                case 5 -> deletarFuncionario(sc);
-                case 0 -> System.out.println("Saindo...");
-                default -> System.out.println("Opção inválida!\n");
+                case 1:
+                    adicionarFuncionario(sc);
+                    break;
+                case 2:
+                    listarFuncionarios();
+                    break;
+                case 3:
+                    buscarPorNome(sc);
+                    break;
+                case 4:
+                    alterarFuncionario(sc);
+                    break;
+                case 5:
+                    deletarFuncionario(sc);
+                    break;
+                case 0:
+                    System.out.println("Sair");
+                    break;
+                default:
+                    System.out.println("Opção inválida!\n");
             }
         } while (opcao != 0);
 
